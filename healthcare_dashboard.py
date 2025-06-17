@@ -10,7 +10,7 @@ colors = sns.color_palette("viridis", 10).as_hex()
 plt.style.use('seaborn-v0_8-whitegrid')
 
 # Load the dataset
-df = pd.read_excel(r"D:\Downloads\Onyx Data - DataDNA Dataset Challenge - Healthcare Dataset - April 2025\Healthcare Analysis Dataset.xlsx")
+df = pd.read_excel('Healthcare Analysis Dataset.xlsx')
 
 # Calculate Length of Stay if not already present
 if 'Length of Stay' not in df.columns:
